@@ -2,14 +2,18 @@
 
 from forex_python.converter import CurrencyRates
 from forex_python.converter import CurrencyCodes
+import time
 
 c = CurrencyRates()
+
+# sample calls
 print(c.get_rate('USD', 'INR'))
 print(c.convert('USD', 'INR', 10.50))
 
 # app sends request in the form of a tuple as in ('USD', 'USR', 10)
 # first element is FROM, second element is TO, and third element is AMOUNT
 
+# sample for testing conversion
 convert_from = 'USD'
 convert_to = 'INR'
 convert_amount = 10
@@ -24,6 +28,7 @@ for item in my_tuple:
     file_convert.write(str(item) + '\n')
 file_convert.close()
 
+time.sleep(1.0)
 
 # read converted amount from converted.txt and convert to int
 file_converted = open('converted.txt', 'r')
