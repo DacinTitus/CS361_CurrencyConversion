@@ -9,8 +9,8 @@ NOTE-- run the file converter.py first so that it is ready to receive data.
 in terminal: python converter.py
 
 Code contained in index.py will need to be added to the page from which you want your currency converted. There are sample calls to show how data will
-be written to a text and requested from converter.py. Data will be requested in the form of a tuple with the first element (string) indicating FROM which currency,
-the second element (string) indicating TO which currency, and the third element (float) indicating the AMOUNT to be converted. 
+be written to a text and requested from converter.py. Data will be requested in the form of a tuple with the first element (string) indicating **FROM** which currency,
+the second element (string) indicating **TO** which currency, and the third element (float) indicating the **AMOUNT** to be converted. 
 
 example: convert_tuple = ('USD', 'INR', 10.50)
 
