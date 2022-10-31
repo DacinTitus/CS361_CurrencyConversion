@@ -4,10 +4,6 @@
 from forex_python.converter import CurrencyRates
 from forex_python.converter import CurrencyCodes
 
-# c = CurrencyRates()
-# print(c.get_rate('USD', 'INR'))
-# print(c.convert('USD', 'INR', 10.50))
-
 if __name__ == '__main__':
 
     while True:
