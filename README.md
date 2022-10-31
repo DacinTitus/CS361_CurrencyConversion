@@ -28,6 +28,6 @@ converted.txt file and convert the string to a float, rounding to two decimal pl
 file will then be closed. At this point, the resulting float may be inserted wherever necessary. 
 
 
-UML DIAGRAM:
+UML SEQUENCE DIAGRAM:
 
 ![image](https://user-images.githubusercontent.com/77033226/199089316-328cfb4b-5279-45c7-902d-8d8824d02e02.png)
