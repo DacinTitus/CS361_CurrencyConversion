@@ -26,3 +26,8 @@ HOW TO RECEIVE DATA:
 After following the steps above, the converted.txt file willl contain the string 865.835845643654. In order to receive this, index.py contains code to open the
 converted.txt file and convert the string to a float, rounding to two decimal places. Resulting float will be stored in variable new_amount. The converted.txt 
 file will then be closed. At this point, the resulting float may be inserted wherever necessary. 
+
+
+UML DIAGRAM:
+
+![image](https://user-images.githubusercontent.com/77033226/199089316-328cfb4b-5279-45c7-902d-8d8824d02e02.png)
