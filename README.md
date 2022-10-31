@@ -4,7 +4,8 @@ Documentation included in files as well.
 
 HOW TO REQUEST DATA:
 
-NOTE-- run the file converter.py first so that it is ready to receive data
+NOTE-- run the file converter.py first so that it is ready to receive data.
+
 in terminal: python converter.py
 
 Code contained in index.py will need to be added to the page from which you want your currency converted. There are sample calls to show how data will
