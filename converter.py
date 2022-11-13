@@ -34,16 +34,14 @@ if __name__ == '__main__':
         
             file_convert.close()
 
-        # test prints
-        # print('currency tuple: ')
-        # print(convert_tuple)
-
         # convert amount and write to converted.txt
             c = CurrencyRates()
             data = c.convert(convert_tuple[0], convert_tuple[1], convert_tuple[2])
+            # round to two decimal places
+            data = format(data, '.2f')
 
             file_converted = open('converted.txt', 'w')
-            print(data)
+            # print(data)
             file_converted.write(str(data))
             file_converted.close()
 
