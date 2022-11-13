@@ -35,7 +35,6 @@ file_converted = open('converted.txt', 'r')
 new_amount = file_converted.readline()
 
 new_amount = float(new_amount)
-new_amount = format(new_amount, '.2f')   # limit to two decimal places
 file_converted.close()
 
 # test print
